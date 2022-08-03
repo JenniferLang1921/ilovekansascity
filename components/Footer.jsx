@@ -1,19 +1,38 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import FooterLogo from "../public/assets/Kansas_City_Love_white-06.png";
 
 const Footer = () => {
   return (
     <div className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-2 border-b-2 border-gray-600 py-8">
         <div>
-          <h6 className="font-bold uppercase pt-2">Things to Do in KC</h6>
+          <Link href="/">
+            <a>
+              <Image
+                src={FooterLogo}
+                alt="/"
+                width="203"
+                height="54"
+                className="cursor-pointer"
+              />
+            </a>
+          </Link>
           <ul>
-            <li className="py-1">Restaurants</li>
-            <li className="py-1">Family Fun</li>
-            <li className="py-1">Hiking</li>
-            <li className="py-1">Romantic Nights</li>
-            <li className="py-1">Live Music</li>
-            <li className="py-1">Dancing</li>
+            <li className="py-1 hover:underline">
+              <Link href="/about">About</Link>
+            </li>
+            <li className="py-1 hover:underline">
+              <Link href="/thingstodoinkc">Things to Do in KC</Link>
+            </li>
+            <li className="py-1 hover:underline">
+              <Link href="/restaurants">Restaurants</Link>
+            </li>
+            <li className="py-1 hover:underline">
+              <Link href="/kceventsthisweekend">KC Events This Weekend</Link>
+            </li>
           </ul>
         </div>
 
