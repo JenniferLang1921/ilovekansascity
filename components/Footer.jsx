@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import FooterLogo from "../public/assets/Kansas_City_Love_white-06.png";
+import FooterLogo from "../public/assets/Kansas_City_love_white-06.png";
 
 const Footer = () => {
   return (
