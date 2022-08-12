@@ -1,0 +1,51 @@
+export const articles = [
+  {
+    id: "1",
+    title: "Hiking At Shawnee Mission Lake",
+    excerpt: "Shawnee Mission Lake offers hiking, swimming, kayaking",
+    body: "There is a beautiful hiking trail on the Northwest side of the lake that follows a river.  It has a prairie area with shade trees and a more wooded area with steep hills.  It is not uncommon to see deer, turtles, snakes, and beautiful birds.  The trail is paved and at the tallest points there is a gorgeous view",
+    website:
+      "https://www.jcprd.com/Facilities/Facility/Details/Shawnee-Mission-Park-14",
+    tags: "hiking, family, outdoor",
+  },
+  {
+    id: "2",
+    title: "Top 10 Coffee Shops",
+    excerpt: "Top 10 Coffee Shops article",
+    body: "Top 10 Coffee Shops article",
+    website: "https://website.com",
+    tags: "coffee shops",
+  },
+  {
+    id: "3",
+    title: "Family Fun",
+    excerpt: "Family Fun article excerpt",
+    body: "Family Fun article",
+    website: "https://website.com",
+    tags: "family fun, kids",
+  },
+  {
+    id: "4",
+    title: "Romantic Nights",
+    excerpt: "Romantic Nights article excerpt",
+    body: "Romantic Nights article",
+    website: "https://website.com",
+    tags: "romantic, date nights",
+  },
+  {
+    id: "5",
+    title: "10 Best Rooftop Bars",
+    excerpt: "10 Best Rooftop Bars article excerpt",
+    body: "10 Best Rooftop Bars article",
+    website: "https://website.com",
+    tags: "romantic, date nights, girls night, guys night",
+  },
+  {
+    id: "6",
+    title: "Dancing",
+    excerpt: "Dancing article excerpt",
+    body: "Dancing article",
+    website: "https://website.com",
+    tags: "romantic, date nights, girls night, guys night, dancing",
+  },
+];
