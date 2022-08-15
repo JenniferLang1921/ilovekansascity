@@ -67,16 +67,16 @@ const Navbar = () => {
         </Link>
         <div>
           <ul className="hidden md:flex">
-            <li className="ml-6 text-sm uppercase link link-underline link-underline-black">
+            <li className="ml-6 text-m uppercase link link-underline link-underline-black">
               <Link href="/about">About</Link>
             </li>
-            <li className="ml-6 text-sm uppercase link link-underline link-underline-black">
+            <li className="ml-6 text-m uppercase link link-underline link-underline-black">
               <Link href="/thingstodoinkc">Things To Do In KC</Link>
             </li>
-            <li className="ml-6 text-sm uppercase link link-underline link-underline-black">
+            <li className="ml-6 text-m uppercase link link-underline link-underline-black">
               <Link href="/restaurants">Restaurants</Link>
             </li>
-            <li className="ml-6 text-sm uppercase link link-underline link-underline-black">
+            <li className="ml-6 text-m uppercase link link-underline link-underline-black">
               <Link href="/kceventsthisweekend">KC Events This Weekend</Link>
             </li>
           </ul>
@@ -117,9 +117,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s make memories together
-              </p>
+              <p className="w-[85%] md:w-[90%] py-4">Making memories</p>
             </div>
           </div>
           <div className="py-4 flex flex-col">

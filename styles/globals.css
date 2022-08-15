@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
 @layer base {
+
+    body {
+        @apply font-[Poppins]
+
+    }
+
+
     li {
         @apply p-4
     }

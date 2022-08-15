@@ -10,14 +10,19 @@ const article = ({ article }) => {
   return (
     <>
       <Meta title={article.title} description={article.excerpt} />
-      <div className="container mx-auto">
-        <h1 className="text-center pt-60 mx-12 text-3xl ">{article.title}</h1>
+      <div className="container mx-auto w-2/3">
+        <h1 className="text-center pt-40 mx-12 text-3xl ">{article.title}</h1>
         <div className="border-b-4  border-red-900 w-1/3 mx-auto p-2 mb-8"></div>
         <p>{article.body}</p>
-        <p>{article.website}</p>
-        <p>{article.tags}</p>
         <br />
-        <Link href="/">Go Back</Link>
+        <p>
+          website: <Link href={article.website}>{article.website}</Link>
+        </p>
+        <p>tags: {article.tags}</p>
+        <br />
+        <Link href="/">
+          <button className="p-2 mb-4 hover:bg-white">← Go Back</button>
+        </Link>
       </div>
     </>
   );
