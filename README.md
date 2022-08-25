@@ -1,4 +1,4 @@
-# Kansas City Lovee
+# Kansas City Love
 
 ![Image of Kansas City Love](https://github.com/JenniferLang1921/ilovekansascity/blob/master/public/assets/Kansas_City-Events.png)
 
