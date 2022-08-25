@@ -10,6 +10,8 @@ Kansas City Love is a next.js site that helps you plan unique things to do in Ka
 
 Front-End: Next.js, React.js, Instagram API, TailwindCSS, JSX, HTML, Javascript
 
-Back-End: Node.js  
+Back-End: Node.js 
+
+React Hooks: getStaticProps,react-icons, useRouter, Link, Image, getServerSideProps
 
 Check out Kansas City Love here https://www.thingstodoinkc.com/
