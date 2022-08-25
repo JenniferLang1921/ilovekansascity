@@ -12,6 +12,6 @@ Front-End: Next.js, React.js, Instagram API, TailwindCSS, JSX, HTML, Javascript
 
 Back-End: Node.js 
 
-React Hooks: getStaticProps,react-icons, useRouter, Link, Image, getServerSideProps
+React/Next Hooks: getStaticProps,react-icons, useRouter, Link, Image, getServerSideProps
 
 Check out Kansas City Love here https://www.thingstodoinkc.com/
