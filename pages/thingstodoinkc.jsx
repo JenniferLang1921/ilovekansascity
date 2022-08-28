@@ -1,12 +1,17 @@
-import React from "react";
-import Hero from "../components/Hero";
+import Image from "next/image";
+import bgImg from "../public/assets/things_to_do_in_Kansas_City.jpg";
 
 const thingstodoinkc = () => {
   return (
-    <div className="container mx-auto w-2/3">
-      <h1 className="text-center pt-40 mx-12 text-3xl ">Things To Do In KC</h1>
-      <div className="border-b-4  border-red-900 w-1/3 mx-auto p-2 mb-8"></div>
-      <p>Coming Soon!</p>
+    <div className="w-full h-{400px} bg-white flex flex-col justify-between">
+      <Image className="w-full" src={bgImg} alt="Kansas City Skyline" />
+      <div className="container mx-auto w-2/3">
+        <h1 className="text-center pt-20 mx-12 text-3xl ">
+          Things To Do In KC
+        </h1>
+        <div className="border-b-4  border-red-900 w-1/3 mx-auto p-2 mb-8"></div>
+        <p>Coming Soon!</p>
+      </div>
     </div>
   );
 };
