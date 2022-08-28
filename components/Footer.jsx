@@ -31,6 +31,9 @@ const Footer = () => {
               <Link href="/restaurants">Restaurants</Link>
             </li>
             <li className="py-1 hover:underline">
+              <Link href="/gallery">Gallery</Link>
+            </li>
+            <li className="py-1 hover:underline">
               <Link href="/kceventsthisweekend">KC Events This Weekend</Link>
             </li>
           </ul>
@@ -45,7 +48,7 @@ const Footer = () => {
             <input
               className="w-full p-2 mr-4 rounded-md mb-4"
               type="email"
-              placeholder="Enter your email"
+              placeholder="Not working yet"
             />
             <button className="p-2 mb-4 hover:bg-white">Subscribe</button>
           </form>

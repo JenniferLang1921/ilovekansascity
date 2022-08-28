@@ -41,8 +41,10 @@ export default function gallery({ instagramPosts }) {
     </div>
   );
 }
-
-export const getStaticProps = async () => {
+{
+  /*server side props is necessary because instagram videos are timestamped and expire*/
+}
+export const getServerSideProps = async () => {
   const instagramPosts = await fetch(
     `https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,caption,permalink,timestamp&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_KEY}`
   ).then((r) => r.json());
