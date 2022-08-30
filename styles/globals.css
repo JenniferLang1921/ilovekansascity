@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=libre-baskerville');
 
 
 @layer base {
@@ -10,6 +11,10 @@
     body {
         @apply font-[Poppins]
 
+    }
+
+    .baskerville {   
+            @apply font-[libre-baskerville]
     }
 
 

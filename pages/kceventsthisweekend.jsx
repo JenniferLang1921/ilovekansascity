@@ -9,6 +9,11 @@ const kceventsthisweekend = () => {
       </h1>
       <div className="border-b-4  border-red-900 w-1/3 mx-auto p-2 mb-8"></div>
       <p>Coming Soon!</p>
+      <script
+        async
+        src="https://cse.google.com/cse.js?cx=f0925206bb3824417"
+      ></script>
+      <div class="gcse-search"></div>
     </div>
   );
 };

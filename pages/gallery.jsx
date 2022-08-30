@@ -7,14 +7,14 @@ export default function gallery({ instagramPosts }) {
     <div className="max-w-[1000px] mx-auto">
       <div className="w-full h-full bg-white flex flex-col justify-between">
         <div className="mx-auto w-25">
-          <h2 className="text-center mt-6 pt-40 mx-12 text-3xl ">
+          <h1 className="text-center mt-6 pt-20 mx-12 text-3xl ">
             Instagram Gallery
             <div className="float-right pl-3 pt-1 align-bottom text-2xl hover:text-gray-400">
               <a href="https://www.instagram.com/livelovekansascity/">
                 <FaInstagram />
               </a>
             </div>
-          </h2>
+          </h1>
         </div>
         <div className="border-b-4 border-red-900 w-1/3 mx-auto p-2 mb-8"></div>
       </div>

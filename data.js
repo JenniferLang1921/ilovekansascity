@@ -1,6 +1,7 @@
 export const articles = [
   {
     id: "1",
+    image: "",
     title: "Hiking At Shawnee Mission Lake",
     excerpt: "Shawnee Mission Lake offers hiking, swimming, kayaking",
     body: "There is a beautiful hiking trail on the Northwest side of the lake that follows a river.  It has a prairie area with shade trees and a more wooded area with steep hills.  It is not uncommon to see deer, turtles, snakes, and beautiful birds.  The trail is paved and at the tallest points there is a gorgeous view",
@@ -10,6 +11,7 @@ export const articles = [
   },
   {
     id: "2",
+    image: "",
     title: "Top 10 Coffee Shops",
     excerpt: "Top 10 Coffee Shops article",
     body: "Café Ollama, ",
@@ -18,6 +20,7 @@ export const articles = [
   },
   {
     id: "3",
+    image: "",
     title: "Worlds of Fun",
     excerpt: "Family Fun article excerpt",
     body: "Worlds of Fun is an amusement park with roller coasters and a large variety of different rides and foods for all ages of kids.  It is attached to a water park called Oceans of Fun that has many swimming pools and water slides.  The park is designed around the theme of visiting other countries and you can find food and gift shops from around the world",
@@ -26,7 +29,8 @@ export const articles = [
   },
   {
     id: "4",
-    title: "Romantic Nights",
+    image: "",
+    title: "Ooh La La Italian",
     excerpt: "Romantic Nights article excerpt",
     body: "Romantic Nights article",
     website: "https://website.com",
@@ -34,6 +38,7 @@ export const articles = [
   },
   {
     id: "5",
+    image: "",
     title: "10 Best Rooftop Bars",
     excerpt: "10 Best Rooftop Bars article excerpt",
     body: "10 Best Rooftop Bars article",
@@ -42,6 +47,7 @@ export const articles = [
   },
   {
     id: "6",
+    image: "",
     title: "Dancing",
     excerpt: "Dancing article excerpt",
     body: "Dancing article",

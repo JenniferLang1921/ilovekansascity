@@ -1,15 +1,23 @@
 import { server } from "../config";
 import Link from "next/link";
 import Hero from "../components/Hero";
-import ArticleList from "../components/ArticleList";
+import BlogList from "../components/BlogList";
 
-export default function Home({ articles, instagramPosts }) {
+export default function Home({ /*articles,*/ instagramPosts }) {
   const images = instagramPosts.data;
 
   return (
     <div>
       <Hero />
-      <ArticleList articles={articles} />
+      <BlogList />
+      <div className="max-w-[1200px] mx-auto">
+        <Link href="/thingstodoinkc">
+          <p className="p-2 mb-4 hover:text-red-900 hover:underline float-right">
+            More Things To Do In KC →
+          </p>
+        </Link>
+      </div>
+      {/*<ArticleList articles={articles} />*/}
       <div className="max-w-[1200px] mx-auto">
         <h2 className="pt-40 mx-8 text-2xl ">Gallery</h2>
         <div className="border-b-4  border-red-900 w-1/5 mx-6 p-2 mb-8"></div>
@@ -48,8 +56,10 @@ export default function Home({ articles, instagramPosts }) {
 }
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`${server}/api/articles`);
-  const articles = await res.json();
+  {
+    /* const res = await fetch(`${server}/api/articles`);
+const articles = await res.json(); */
+  }
 
   const instagramPosts = await fetch(
     `https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,caption,permalink,timestamp&access_token=${process.env.NEXT_PUBLIC_INSTAGRAM_KEY}&limit=4`
@@ -57,7 +67,6 @@ export const getServerSideProps = async () => {
 
   return {
     props: {
-      articles,
       instagramPosts,
     },
   };

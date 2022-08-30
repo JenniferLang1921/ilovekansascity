@@ -1,38 +1,50 @@
-import React from "react";
+import bgImg from "../public/assets/blogImgs/romantic_roses.jpg";
+import Image from "next/image";
 
 const romanticitalian = () => {
   return (
-    <div>
-      <h1>A Romantic Italian Experience</h1>
-      <p>
-        Begin the date with her favorite flowers, if you do not know what they
-        are, find a sneaky way to ask 'because you are curious' and then
-        surprise your date with them. I recommend buying flowers cheap, I like
-        grocery store flowers.
-      </p>
-      <p>Make reservations here: https://www.jasperskc.com/</p>
-      <p>
-        Dinner Romance Tips:
-        <ul>
-          <li>Sit beside her, not across from her</li>
-          <li>
-            Order wine, one appetizer, one main course, one dessert, more
-            wine.... share everything and feed each other.
-          </li>
-        </ul>
-      </p>
+    <div className="w-full h-full bg-white flex flex-col justify-between">
+      <Image className="w-full" src={bgImg} alt="Romantic Roses" />
+      <div className="max-w-[1000px] mx-auto">
+        <h1 className="text-center mt-6 p mx-12 pt-5 text-3xl baskerville">
+          Ooh La La Italian
+        </h1>
+        <div className="border-b-4  border-red-900 w-1/3 mx-auto p-2 mb-8"></div>
+        <p className="mt-10">Begin the date with her favorite flowers</p>
+        <p className="mt-5">
+          Make reservations:{" "}
+          <a
+            className="text-red-900 hover:underline"
+            href="https://www.jasperskc.com/"
+          >
+            Jaspers
+          </a>
+        </p>
+        <p className="mt-5">
+          Dinner Seduction Tips: Sit beside her, order wine, one appetizer, one
+          main course, one dessert, more wine.... share everything and feed each
+          other.
+        </p>
 
-      <p>
-        After dinner, go for a gondola ride from
-        https://www.ambianceonthewater.com/ at the Kansas City Plaza that you
-        have already reserved.
-      </p>
-      <p>
-        Leave some time after your gondola ride to walk around the plaza window
-        shopping and holding hands.
-      </p>
-
-      <p>hotel and hot tub</p>
+        <p className="mt-5">
+          After dinner, go for a gondola ride from{" "}
+          <a
+            className="text-red-900 hover:underline"
+            href="https://www.ambianceonthewater.com/"
+          >
+            Ambience On The Water
+          </a>{" "}
+          at the Kansas City Plaza that you reserved in advance.
+        </p>
+        <p>
+          Leave some time after your gondola ride to walk around the plaza
+          window shopping and holding hands.
+        </p>
+        <p className="mt-5">Extra special: Hotel and hot tub, your choice</p>
+        <p className="mt-5 float-right">
+          romantic, date nights, anniversary, marriage proposal
+        </p>
+      </div>
     </div>
   );
 };

@@ -12,6 +12,13 @@ const about = () => {
         you a locally curated selection of fun and memorable moments for you and
         your favorite people.
       </p>
+
+      <p className="italic mt-10">
+        This website is my personal passion project and is a work in progress,
+        apologies for being incomplete. I plan to spend a long time on it and
+        build it exactly like I want it.
+      </p>
+      <p>~Jennifer Lang, Web Developer</p>
     </div>
   );
 };
