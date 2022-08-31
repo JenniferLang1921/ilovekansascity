@@ -13,7 +13,7 @@ export default function Home({ /*articles,*/ instagramPosts }) {
       <div className="max-w-[1200px] mx-auto">
         <Link href="/thingstodoinkc">
           <p className="p-2 mb-4 hover:text-red-900 hover:underline float-right">
-            More Things To Do In KC →
+            Things To Do In KC →
           </p>
         </Link>
       </div>
@@ -47,7 +47,7 @@ export default function Home({ /*articles,*/ instagramPosts }) {
         </div>
         <Link href="/gallery">
           <p className="p-2 mb-4 hover:text-red-900 hover:underline float-right">
-            More Gallery Photos →
+            Gallery →
           </p>
         </Link>
       </div>
