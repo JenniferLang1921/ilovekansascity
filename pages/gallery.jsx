@@ -32,7 +32,11 @@ export default function gallery({ instagramPosts }) {
           else images.media_type === "IMAGE";
           return (
             <div key={images.id}>
-              <img className="object-cover h-80 w-80" src={images.media_url} />
+              <img
+                className="object-cover h-80 w-80"
+                src={images.media_url}
+                alt={images.caption}
+              />
               <p>{images.caption}</p>
             </div>
           );
