@@ -8,9 +8,9 @@ Kansas City Love is a next.js site that helps you plan unique things to do in Ka
 
 ## Technologies Used:
 
-Front-End: Next.js, React.js, Instagram API, TailwindCSS, JSX, HTML, Javascript
+Front-End: Next.js, React.js, Instagram API, TailwindCSS, JSX, HTML, Javascript, google analytics, google adsense, Mailchimp
 
-Back-End: Node.js 
+Back-End: Node.js
 
 React/Next Hooks: getStaticProps,react-icons, useRouter, Link, Image, getServerSideProps
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import FooterLogo from "../public/assets/Kansas_City_love_white-06.png";
-
+import NewsLetterSignUpForm from "./NewsletterSignUpForm";
 const Footer = () => {
   return (
     <div className="w-full mt-24 bg-slate-900 text-gray-300 py-y px-2">
@@ -39,20 +39,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="pt-8 md:pt-2">
-          <p className="font-bold uppercase">Subscribe to our newsletter</p>
-          <p className="py-4">
-            The latest news, articles, and resources, sent to your inbox weekly.
-          </p>
-          <form className="flex flex-col sm:flex-row">
-            <input
-              className="w-full p-2 mr-4 rounded-md mb-4"
-              type="email"
-              placeholder="Not working yet"
-            />
-            <button className="p-2 mb-4 hover:bg-white">Subscribe</button>
-          </form>
-        </div>
+        <NewsLetterSignUpForm />
       </div>
       <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500">
         <p> 2022 I Love KC. All rights reserved</p>
