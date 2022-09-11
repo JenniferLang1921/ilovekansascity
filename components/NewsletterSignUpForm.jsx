@@ -8,7 +8,7 @@ export default function NewsLetterSignUpForm() {
 
     // this is where your mailchimp request is made
 
-    const res = await fetch("/api/subscribeUser", {
+    const res = await fetch("/api/form", {
       body: JSON.stringify({
         email: inputRef.current.value,
       }),
@@ -33,12 +33,12 @@ export default function NewsLetterSignUpForm() {
           type="email"
           id="email-input"
           name="email"
-          placeholder="your best email"
+          placeholder="your email"
           ref={inputRef}
           required
           autoCapitalize="off"
           autoCorrect="off"
-          className="w-full p-2 mr-4 rounded-md mb-4"
+          className="w-full p-2 mr-4 rounded-md mb-4 text-slate-800"
         />
         <button
           type="submit"
