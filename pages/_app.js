@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Meta from "../components/Meta";
 import "../styles/globals.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
@@ -24,6 +25,8 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Meta />
+
       <Navbar />
 
       <Component {...pageProps} />
