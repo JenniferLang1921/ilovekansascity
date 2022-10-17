@@ -11,15 +11,17 @@ const about = () => {
         you a locally curated selection of fun and memorable moments for you and
         your favorite people.
       </p>
-      <p>
+      <p className="my-4">
         We believe in the Midwest values of generosity, honesty, hard work,
         kindness, and hospitality.
       </p>
-      <p>
+      <p className="my-4">
         We believe in taking care of our people and our city because people are
         valuable and environment matters.
       </p>
-      <p>We believe in making Kansas City a welcoming place for everyone.</p>
+      <p className="my-4">
+        We believe in making Kansas City a welcoming place for everyone.
+      </p>
     </div>
   );
 };

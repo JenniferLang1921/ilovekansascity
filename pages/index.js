@@ -1,4 +1,3 @@
-import { server } from "../config";
 import Link from "next/link";
 import Hero from "../components/Hero";
 import BlogList from "../components/BlogList";
@@ -29,18 +28,17 @@ export default function Home({ /*articles,*/ instagramPosts }) {
                   <video className="object-cover h-80 w-80" controls>
                     <source src={images.media_url} />
                   </video>
-                  <p>{images.caption}</p>
                 </div>
               );
             else images.media_type === "IMAGE";
             return (
               <div key={images.id}>
                 <img
+                  alt="Kansas city events"
                   className="object-cover h-80 w-80"
                   src={images.media_url}
                 />
                 <p>{images.location_id}</p>
-                <p>{images.caption}</p>
               </div>
             );
           })}

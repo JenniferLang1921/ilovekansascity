@@ -73,14 +73,9 @@ const Navbar = () => {
             <li className="ml-6 text-m uppercase link link-underline link-underline-black">
               <Link href="/thingstodoinkc">Things To Do In KC</Link>
             </li>
-            <li className="ml-6 text-m uppercase link link-underline link-underline-black">
-              <Link href="/restaurants">Restaurants</Link>
-            </li>
+
             <li className="ml-6 text-m uppercase link link-underline link-underline-black">
               <Link href="/gallery">Gallery</Link>
-            </li>
-            <li className="ml-6 text-m uppercase link link-underline link-underline-black">
-              <Link href="/kceventsthisweekend">KC Events This Weekend</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -141,29 +136,13 @@ const Navbar = () => {
                   Things To Do In KC
                 </li>
               </Link>
-              <Link href="/restaurants">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:bg-gray-100"
-                >
-                  Restaurants
-                </li>
-              </Link>
+
               <Link href="/gallery">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm hover:bg-gray-100"
                 >
                   Gallery
-                </li>
-              </Link>
-
-              <Link href="/kceventsthisweekend">
-                <li
-                  onClick={() => setNav(false)}
-                  className="py-4 text-sm hover:bg-gray-100"
-                >
-                  KC Events This Weekend
                 </li>
               </Link>
             </ul>

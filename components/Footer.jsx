@@ -27,14 +27,9 @@ const Footer = () => {
             <li className="py-1 hover:underline">
               <Link href="/thingstodoinkc">Things to Do in KC</Link>
             </li>
-            <li className="py-1 hover:underline">
-              <Link href="/restaurants">Restaurants</Link>
-            </li>
+
             <li className="py-1 hover:underline">
               <Link href="/gallery">Gallery</Link>
-            </li>
-            <li className="py-1 hover:underline">
-              <Link href="/kceventsthisweekend">KC Events This Weekend</Link>
             </li>
           </ul>
         </div>
