@@ -10,11 +10,6 @@ const Meta = ({ title, keywords, description }) => {
       <meta charSet="utf-8" />
       <link rel="icon" href="/favicon.ico" />
       <title>{title}</title>
-      <Script
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9500426396658400"
-        cross0rigin="anonymous"
-      ></Script>
     </Head>
   );
 };
