@@ -69,3 +69,4 @@ const articles = await res.json(); */
     },
   };
 };
+//https://graph.instagram.com/me/media?fields=id,media_type,media_url,username,caption,permalink,timestamp&access_token=8206718044405fa8ff8dfb7e03a7d0da&limit=4`
